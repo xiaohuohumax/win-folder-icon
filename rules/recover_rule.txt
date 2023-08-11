@@ -1,0 +1,11 @@
+# 文件夹图标映射表
+# 映射规则如下:
+#   1. [#] 开始则为注释
+#   2. 每一行为一条规则
+#   3. 规则格式: 需要恢复图标的文件夹路径(绝对/相对)
+# 范例:
+
+.\folder\Game-ico
+.\folder\Print-png
+.\folder\Rocket-jpg
+.\folder\Pear-jpeg

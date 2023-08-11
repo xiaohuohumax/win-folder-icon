@@ -1,0 +1,11 @@
+# 文件夹图标映射表
+# 映射规则如下:
+#   1. [#] 开始则为注释
+#   2. 每一行为一条规则
+#   3. 规则格式([:]分隔): 需要修改图标的文件夹路径(绝对/相对) : 图标路径(可使用ico,jpg,png,jpeg等格式, 其他格式自行尝试,Pillow支持即可)
+# 范例:
+
+.\folder\Game-ico : .\icon\Game.ico
+.\folder\Print-png : .\icon\Print.png
+.\folder\Rocket-jpg : .\icon\Rocket.jpg
+.\folder\Pear-jpeg : .\icon\Pear.jpeg
