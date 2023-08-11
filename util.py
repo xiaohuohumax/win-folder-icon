@@ -78,6 +78,9 @@ def write_file_lines(file_path: str, lines: List[str]) -> None:
     :param lines: 文件内容
     :return:
     """
+    file_parent = Path(file_path).parent
+    if not file_parent.exists():
+        os.makedirs(str(file_parent))
     with open(file_path, 'w', encoding="utf-8") as file:
         file.write('\n'.join(lines))
 
